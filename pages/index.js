@@ -6,31 +6,29 @@ export default class Home extends Component {
     return (
       <div>
         <div className="logo-mobile">
-          {/* <Link to="/admin"> */}
             <img
               className="bogo"
               src="http://res.cloudinary.com/kvge/image/upload/c_scale,h_685/v1525298041/logo-3-KVGE.png"
               alt="box-logo"
             />
-          {/* </Link> */}
         </div>
-        <div className="time-mobile">Time here</div>
+        <div className="time-mobile"></div>
         <nav className="mobile-view">
           <ul>
             <li>
-              {/* <Link to="/lookbook"> */}
-                <button className="mobile">Spring/Summer 2018 Lookbook</button>
-              {/* </Link> */}
+              <Link href="/lookbook">
+                <button className="mobile">Spring/Summer 2020 Lookbook</button>
+              </Link>
             </li>
             <li>
-              {/* <Link to="/shop"> */}
+              <Link href="/shop">
                 <button className="mobile">Shop</button>
-              {/* </Link> */}
+              </Link>
             </li>
             <li>
-              {/* <Link to="/about"> */}
+              <Link href="/about">
                 <button className="mobile">About</button>
-              {/* </Link> */}
+              </Link>
             </li>
             <li>
               <button className="mobile">Contact</button>
@@ -65,23 +63,23 @@ export default class Home extends Component {
                 alt="bogo"
               />
           </header>
-          <div className="time-desk">time here</div>
+          <div className="time-desk"></div>
           <nav className="desktop">
             <ul>
               <li>
-                {/* <Link to="/lookbook"> */}
-                  <button className="btn">Spring/Summer 2018 Lookbook</button>
-                {/* </Link> */}
+                <Link href="/lookbook">
+                  <button className="btn">Spring/Summer 2020 Lookbook</button>
+                </Link>
               </li>
               <li>
-                {/* <Link to="/shop"> */}
+                <Link href="/shop">
                   <button className="btn">Shop</button>
-                {/* </Link> */}
+                </Link>
               </li>
               <li>
-                {/* <Link to="/about"> */}
+                <Link href="/about">
                   <button className="btn">About</button>
-                {/* </Link> */}
+                </Link>
               </li>
               <li>
                 <button className="btn">Contact</button>

@@ -6,24 +6,24 @@ const About = () => {
     <div>
       <div className="navi-mobile">
         <span>
-          {/* <Link to="/"> */}
+          <Link href="/">
             <img
               className="home"
               src="http://res.cloudinary.com/kvge/image/upload/v1525301020/web-page-home.png"
               alt="home-button"
             />
-          {/* </Link> */}
+          </Link>
         </span>
       </div>
       <div className="navi-top">
         <span>
-          {/* <Link to="/"> */}
+          <Link href="/">
             <img
               className="home"
               src="http://res.cloudinary.com/kvge/image/upload/v1525671763/web-page-home-whiteshadow.png"
               alt="home-button"
             />
-          {/* </Link> */}
+          </Link>
         </span>
       </div>
       <div className="info-container">

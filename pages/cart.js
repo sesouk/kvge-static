@@ -20,27 +20,27 @@ class Cart extends Component {
             <div>
                 <div className='cart-nav'>
                     <span>
-                      {/* <Link to='/'> */}
+                      <Link href='/'>
                         <img className='home' src="http://res.cloudinary.com/kvge/image/upload/v1525301020/web-page-home.png" alt="home-button"/>
-                        {/* </Link> */}
+                        </Link>
                         </span>
                     <span>
-                      {/* <Link to='/shop'> */}
+                      <Link href='/shop'>
                         <img className='back-to-shop' src="http://res.cloudinary.com/kvge/image/upload/v1525455530/go-back-left-arrow.png" alt='back-to-shop-button'/>
-                        {/* </Link> */}
+                        </Link>
                         </span>
                 </div>
 
                     <div className='cart-top-nav'>
                     <span>
-                      {/* <Link to='/'> */}
+                      <Link href='/'>
                         <img className='home' src="http://res.cloudinary.com/kvge/image/upload/v1525671763/web-page-home-whiteshadow.png" alt="home-button"/>
-                        {/* </Link> */}
+                        </Link>
                         </span>
                     <span>
-                      {/* <Link to='/shop'> */}
+                      <Link href='/shop'>
                         <img className='back-to-shop' src="http://res.cloudinary.com/kvge/image/upload/v1525671775/go-back-left-arrow-whiteshadow.png" alt='back-to-shop-button'/>
-                        {/* </Link> */}
+                        </Link>
                         </span>
                 </div>
                 <div className='cart-containerx2'>

@@ -10,14 +10,12 @@ span {
 }
 
 .home {
-  width: 5vw;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 .back-to-shop {
-  width: 5vw;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -29,7 +27,6 @@ span {
 
 .product {
   text-align: center;
-  background-color: white;
   padding: 0.5em;
 }
 
