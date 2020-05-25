@@ -8,7 +8,7 @@ export default class Home extends Component {
         <div className="logo-mobile">
             <img
               className="bogo"
-              src="http://res.cloudinary.com/kvge/image/upload/c_scale,h_685/v1525298041/logo-3-KVGE.png"
+              src="https://res.cloudinary.com/kvge/image/upload/c_scale,w_500/v1525298041/logo-3-KVGE.png"
               alt="box-logo"
             />
         </div>
@@ -38,19 +38,19 @@ export default class Home extends Component {
         <div className="social-mobile">
           <a href="https://www.facebook.com/kvgebrand" id="fb">
             <img
-              src="http://res.cloudinary.com/kvge/image/upload/v1525287917/facebook-logo.png"
+              src="https://res.cloudinary.com/kvge/image/upload/c_scale,w_85/v1525287917/facebook-logo.png"
               alt="facebook link"
             />
           </a>
           <a href="https://www.instagram.com/kvgebrand" id="ig">
             <img
-              src="http://res.cloudinary.com/kvge/image/upload/v1525287917/512px-Instagram_simple_icon.png"
+              src="https://res.cloudinary.com/kvge/image/upload/c_scale,w_85/v1525287917/512px-Instagram_simple_icon.png"
               alt="instagram link"
             />
           </a>
           <a href="https://www.twitter.com/kvgebrand" id="twitter">
             <img
-              src="http://res.cloudinary.com/kvge/image/upload/v1525287917/twitter.png"
+              src="https://res.cloudinary.com/kvge/image/upload/c_scale,w_85/v1525287917/twitter.png"
               alt="twitter link"
             />
           </a>
@@ -59,7 +59,7 @@ export default class Home extends Component {
           <header className="head-desk">
               <img
                 className="bogo-desk"
-                src="http://res.cloudinary.com/kvge/image/upload/v1525658069/logo-3-KVGE-whiteshadow.png"
+                src="https://res.cloudinary.com/kvge/image/upload/c_scale,w_100/v1525658069/logo-3-KVGE-whiteshadow.png"
                 alt="bogo"
               />
           </header>

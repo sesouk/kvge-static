@@ -21,12 +21,12 @@ class Cart extends Component {
                 <div className='cart-nav'>
                     <span>
                       <Link href='/'>
-                        <img className='home' src="http://res.cloudinary.com/kvge/image/upload/v1525301020/web-page-home.png" alt="home-button"/>
+                        <img className='home' src="https://res.cloudinary.com/kvge/image/upload/c_scale,w_60/v1525301020/web-page-home.png" alt="home-button"/>
                         </Link>
                         </span>
                     <span>
                       <Link href='/shop'>
-                        <img className='back-to-shop' src="http://res.cloudinary.com/kvge/image/upload/v1525455530/go-back-left-arrow.png" alt='back-to-shop-button'/>
+                        <img className='back-to-shop' src="https://res.cloudinary.com/kvge/image/upload/c_scale,w_60/v1525455530/go-back-left-arrow.png" alt='back-to-shop-button'/>
                         </Link>
                         </span>
                 </div>
@@ -34,12 +34,12 @@ class Cart extends Component {
                     <div className='cart-top-nav'>
                     <span>
                       <Link href='/'>
-                        <img className='home' src="http://res.cloudinary.com/kvge/image/upload/v1525671763/web-page-home-whiteshadow.png" alt="home-button"/>
+                        <img className='home' src="https://res.cloudinary.com/kvge/image/upload/c_scale,w_60/v1525671763/web-page-home-whiteshadow.png" alt="home-button"/>
                         </Link>
                         </span>
                     <span>
                       <Link href='/shop'>
-                        <img className='back-to-shop' src="http://res.cloudinary.com/kvge/image/upload/v1525671775/go-back-left-arrow-whiteshadow.png" alt='back-to-shop-button'/>
+                        <img className='back-to-shop' src="https://res.cloudinary.com/kvge/image/upload/c_scale,w_60/v1525671775/go-back-left-arrow-whiteshadow.png" alt='back-to-shop-button'/>
                         </Link>
                         </span>
                 </div>

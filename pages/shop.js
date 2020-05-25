@@ -11,7 +11,7 @@ class Shop extends Component {
             <Link href="/">
               <img
                 className="home"
-                src="http://res.cloudinary.com/kvge/image/upload/v1525301020/web-page-home.png"
+                src="https://res.cloudinary.com/kvge/image/upload/c_scale,w_60/v1525301020/web-page-home.png"
                 alt="home-button"
               />
             </Link>
@@ -20,7 +20,7 @@ class Shop extends Component {
             <Link href="/cart">
               <img
                 className="cart"
-                src="http://res.cloudinary.com/kvge/image/upload/v1525301193/shopping-cart_1.png"
+                src="https://res.cloudinary.com/kvge/image/upload/c_scale,w_60/v1525301193/shopping-cart_1.png"
                 alt="cart-button"
               />
             </Link>
@@ -33,7 +33,7 @@ class Shop extends Component {
             <Link href="/">
               <img
                 className="home"
-                src="http://res.cloudinary.com/kvge/image/upload/v1525671763/web-page-home-whiteshadow.png"
+                src="https://res.cloudinary.com/kvge/image/upload/c_scale,w_60/v1525671763/web-page-home-whiteshadow.png"
                 alt="home-button"
               />
             </Link>
@@ -41,7 +41,7 @@ class Shop extends Component {
           <span>
             <img
               className="bogo-desk-shop"
-              src="http://res.cloudinary.com/kvge/image/upload/v1525658069/logo-3-KVGE-whiteshadow.png"
+              src="https://res.cloudinary.com/kvge/image/upload/c_scale,w_100/v1525658069/logo-3-KVGE-whiteshadow.png"
               alt="bogo"
             />
           </span>
@@ -49,7 +49,7 @@ class Shop extends Component {
             <Link href="/cart">
               <img
                 className="cart"
-                src="http://res.cloudinary.com/kvge/image/upload/v1525672175/shopping-cart-whiteshadow.png"
+                src="https://res.cloudinary.com/kvge/image/upload/c_scale,w_60/v1525672175/shopping-cart-whiteshadow.png"
                 alt="cart-button"
               />
             </Link>

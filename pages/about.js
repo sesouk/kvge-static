@@ -9,7 +9,7 @@ const About = () => {
           <Link href="/">
             <img
               className="home"
-              src="http://res.cloudinary.com/kvge/image/upload/v1525301020/web-page-home.png"
+              src="https://res.cloudinary.com/kvge/image/upload/c_scale,w_60/v1525301020/web-page-home.png"
               alt="home-button"
             />
           </Link>
@@ -20,7 +20,7 @@ const About = () => {
           <Link href="/">
             <img
               className="home"
-              src="http://res.cloudinary.com/kvge/image/upload/v1525671763/web-page-home-whiteshadow.png"
+              src="https://res.cloudinary.com/kvge/image/upload/c_scale,w_60/v1525671763/web-page-home-whiteshadow.png"
               alt="home-button"
             />
           </Link>
@@ -42,13 +42,13 @@ const About = () => {
           </p>
           <div className="logo-holder">
             <img
-              src="http://res.cloudinary.com/kvge/image/upload/v1524155254/logo-6-KVGE.png"
+              src="https://res.cloudinary.com/kvge/image/upload/c_scale,w_200/v1524155254/logo-6-KVGE.png"
               alt="change-logo"
             />
           </div>
           <div className="logo-holder-top">
             <img
-              src="http://res.cloudinary.com/kvge/image/upload/v1525730412/logo-6-KVGE-whitesmoke.png"
+              src="https://res.cloudinary.com/kvge/image/upload/c_scale,w_200/v1525730412/logo-6-KVGE-whitesmoke.png"
               alt="change-logo"
             />
           </div>
