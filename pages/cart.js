@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'next/link'
+import Layout from '../components/layout'
 
 class Cart extends Component {
     render() {
@@ -17,6 +18,7 @@ class Cart extends Component {
         //     </div>
         // })
         return (
+          <Layout>
             <div>
                 <div className='cart-nav'>
                     <span>
@@ -49,6 +51,7 @@ class Cart extends Component {
                 </div>
                 </div>
             </div>
+            </Layout>
         );
     }
 }

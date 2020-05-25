@@ -1,8 +1,10 @@
 import React from "react";
 import Link from 'next/link'
+import Layout from '../components/layout'
 
 const About = () => {
   return (
+    <Layout>
     <div>
       <div className="navi-mobile">
         <span>
@@ -55,6 +57,7 @@ const About = () => {
         </div>
       </div>
     </div>
+  </Layout>
   );
 };
 

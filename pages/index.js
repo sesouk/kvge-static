@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import Link from 'next/link'
+import Layout from '../components/layout'
 
 export default class Home extends Component {
   render() {
     return (
+      <Layout>
       <div>
         <div className="logo-mobile">
             <img
@@ -104,6 +106,7 @@ export default class Home extends Component {
         </div>
         <div />
       </div>
+      </Layout>
     );
   }
 }

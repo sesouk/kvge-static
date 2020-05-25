@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 import Link from 'next/link'
 import Products from '../components/products'
+import Layout from '../components/layout'
 
 class Shop extends Component {
   render() {
     return (
+    <Layout>
       <div>
         <div className="shop-nav">
           <span>
@@ -59,6 +61,7 @@ class Shop extends Component {
           <div className="shoptop"><Products /></div>
         </div>
       </div>
+      </Layout>
     );
   }
 }

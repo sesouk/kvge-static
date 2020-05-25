@@ -1,8 +1,10 @@
 import React from 'react';
 import Link from 'next/link'
+import Layout from '../components/layout'
 
 const LookBook = () => {
   return (
+    <Layout>
     <div>
       <div className="navi-mobile">
         <span>
@@ -46,6 +48,7 @@ const LookBook = () => {
         </div>
       </div>
     </div>
+    </Layout>
   );
 };
 
