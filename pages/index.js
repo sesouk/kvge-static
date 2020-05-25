@@ -31,7 +31,7 @@ export default class Home extends Component {
               </Link>
             </li>
             <li>
-              <button className="mobile">Contact</button>
+              <button className="mobile"><a href="mailto:kvgebrand@gmail.com">Contact</a></button>
             </li>
           </ul>
         </nav>
@@ -82,7 +82,7 @@ export default class Home extends Component {
                 </Link>
               </li>
               <li>
-                <button className="btn">Contact</button>
+                <button className="btn"><a href="mailto:kvgebrand@gmail.com">Contact</a></button>
               </li>
               <li>
                 <a href="https://www.facebook.com/kvgebrand">

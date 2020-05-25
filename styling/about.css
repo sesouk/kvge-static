@@ -1,6 +1,7 @@
 .navi-top {
   display: none;
 }
+
 @media (min-width: 414px) {
   .logo-holder {
     padding-top: 4em;
