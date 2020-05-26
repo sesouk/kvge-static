@@ -2,6 +2,10 @@
   display: none;
 }
 
+.navi-mobile {
+  padding-top: 1em;
+}
+
 @media (min-width: 414px) {
   .logo-holder {
     padding-top: 4em;
