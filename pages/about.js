@@ -31,7 +31,7 @@ const About = () => {
       <div className="info-container">
         <div className="info">
           <p>
-            Killer Vibes, Good Energy or better known as KVGE is a urban and
+            Killer Vibes, Good Energy or better known as KVGE is an urban and
             streetwear brand founded in Denver, CO. The meaning is simple, give
             off killer vibes and good energy and you will attract the good
             things in life.
