@@ -45,11 +45,12 @@ const Products = () => {
       </div>
       <p className="info">{p.desc}</p>
       <p className="price">{p.price > 0 ? `$${p.price}` : 'Not for Sale'}</p>
-      <div className="button-holder">
+      <div className="button-holder">{p.price > 0 ?
         <button className="atc" onClick={() => alert('Purchasing options coming soon!')}>
           Add To Cart
-        </button>
-      </div>
+        </button> :
+        null
+  }</div>
     </div>)
   })
 
