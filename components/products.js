@@ -53,7 +53,7 @@ const Products = () => {
       <p className="price">{p.price > 0 ? `$${p.price}` : 'Not for Sale'}</p>
       <div className="button-holder">{p.price > 0 ?
         <button className="atc" onClick={() => handleClick()}>
-          {!btn ? 'Add To Cart' : 'Not ready yet!' }
+          { !btn ? 'Add To Cart' : 'Not ready yet!' }
         </button> :
         null
   }</div>
