@@ -35,6 +35,12 @@ const Products = () => {
       id: 4
     }])
     
+  const [btn, setBtn] = useState(false)
+  
+  const handleClick = () => {
+    setBtn(!btn)
+    alert('Purchasing options coming soon!')
+  }
 
   const products = inventory.map(p => {
     return( <div className="product-container" key={p.id}>
@@ -46,8 +52,8 @@ const Products = () => {
       <p className="info">{p.desc}</p>
       <p className="price">{p.price > 0 ? `$${p.price}` : 'Not for Sale'}</p>
       <div className="button-holder">{p.price > 0 ?
-        <button className="atc" onClick={() => alert('Purchasing options coming soon!')}>
-          Add To Cart
+        <button className="atc" onClick={() => handleClick()}>
+          {!btn ? 'Add To Cart' : 'Not ready yet!' }
         </button> :
         null
   }</div>
